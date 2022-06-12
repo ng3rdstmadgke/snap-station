@@ -1,4 +1,4 @@
-service: sls-web-template
+service: snap-station
 frameworkVersion: '3'
 custom:
   profile: ${file(./profile/${opt:stage}.yml)}
@@ -75,7 +75,7 @@ resources:
     ApiRole:
       Type: AWS::IAM::Role
       Properties:
-        RoleName: slsWebTemplate-apiRole-${self:provider.stage}
+        RoleName: snapStation-apiRole-${self:provider.stage}
         AssumeRolePolicyDocument:
           Version: "2012-10-17"
           Statement:

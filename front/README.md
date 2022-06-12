@@ -1,4 +1,4 @@
-# sls-web-template
+# snap-station
 
 ## Build Setup
 

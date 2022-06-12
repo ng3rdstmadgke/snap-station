@@ -9,8 +9,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - sls-web-template',
-    title: 'sls-web-template',
+    titleTemplate: '%s - snap-station',
+    title: 'snap-station',
     htmlAttrs: {
       lang: 'en'
     },
